@@ -1,0 +1,1 @@
+用电脑操作时，不需要下载并在FireTV安装remote-Adb.apk
