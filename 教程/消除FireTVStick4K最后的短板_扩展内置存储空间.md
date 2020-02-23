@@ -8,13 +8,14 @@ FireTV Stick 4K最大的短板是内置存储空间很小，而很多APK都需�
 
 2. 主要操作是ADB. 有如下两种方式可选:
 1) 首页教程里面说的，安装在FireTV Stick 4K上的Adb Remote Shell, 结合在手机上安装的FireTV APP输入命令。如果直接用遥控器输入命令会很累。
-   2）电脑上安装ADB link来操作。ADBLink下载:  http://www.jocala.com/
+
+2）电脑上安装ADB link来操作。ADBLink下载:  http://www.jocala.com/
       如果有电脑操作的话，安装APK、输入命令等比手机还是方便些。注意连接端口是5555。
-   ![](https://github.com/openwrt166/firetv/blob/master/images/2.png)
+
+![](https://github.com/openwrt166/firetv/blob/master/images/2.png)
 
 连接后，根据电视屏幕上的提示确认允许连接。
 ![](https://github.com/openwrt166/firetv/blob/master/images/3.png)
-
 
 
 3. FireTV Stick 4K 连接好OTG线，插上U盘，然后在ADB Shell 里面输入下面命令。
@@ -23,8 +24,10 @@ FireTV Stick 4K最大的短板是内置存储空间很小，而很多APK都需�
 会得到插入的U盘的名称. 我的是disk:8,0
 
 2）第二步有两种选择.(根据自己的需求选择，U盘大选a,U盘小选b. 不管选哪个，U盘原有数据都会清除，请确认自己是否需要继续)
-a. sm partition disk:8,0 mixed 50 (会把U盘分成两个同样大小的分区，一个作为内置存储的扩充（安装软件及保存软件数据)，一个作为外置存储（保存电影，图片等数据)
-b. sm partition disk:8,0 private (会把整个U盘空间作为内置存储的扩充)
+
+   a. sm partition disk:8,0 mixed 50 (会把U盘分成两个同样大小的分区，一个作为内置存储的扩充（安装软件及保存软件数据)，一个作为外置存储（保存电影，图片等数据)  
+
+   b. sm partition disk:8,0 private (会把整个U盘空间作为内置存储的扩充)
 (上面的disk:8,0根据第1步得到的实际名称更改)
 
 3) 做完这两步后,可以输入下面第4步的命令确认结果。以后新安装的程序，如果APP开发者在代码内有声明，会安装在扩充后的存储空间内。对于已经安装好的软件，可以用下面第4-6步命令转移到扩充后的存储空间内.
