@@ -16,7 +16,7 @@
 
 返回后再进入 Setting -> My FireTV -> About -> Network，查看右侧 Fire TV 的IP Address（比如192.168.1.100）。记下来，后面会用到。
 
-![](D:\BX02\Desktop\1912091125569b48e6edf12f0b.png)
+![](https://github.com/openwrt166/firetv/blob/master/images/1.png)
 
 #### 用电脑操作的教程
 
@@ -29,11 +29,11 @@
 
 2. 在电脑上运行ADBlink,输入前面准备工作中得到的FireTV IP，并点击连接。
    
-   ![](D:\BX02\Desktop\TIM截图20200223200310.png)
+   ![](https://github.com/openwrt166/firetv/blob/master/images/2.png)
 
 3. 输入后你会在FireTV电视界面看到一个权限申请，点选总是允许，并确认。
    
-   ![](D:\BX02\Desktop\200205113340977a864d567408.png)
+   ![](https://github.com/openwrt166/firetv/blob/master/images/3.png)
 
 4. 重新在电脑Adblink上面点击connect,这次已经能连上了。然后点击Install APK，把ATV_Launcher_0.1.5-pro.apk
    
@@ -57,7 +57,7 @@
 
 手机上需要预先安装的软件: （所有会用到的apk，都可以在本教程所在的页面找到)
 
-![](D:\BX02\Desktop\19120911189f7f6674217b7a60.png)
+![](https://github.com/openwrt166/firetv/blob/master/images/4.png)
 
 1. 先下载如下3个apk在手机上. **只下载，不要安装在手机上.**
 
@@ -70,7 +70,7 @@
 
 3. 输入后你会在FireTV电视界面看到一个权限申请，点选总是允许，并确认。
 
-![](D:\BX02\Desktop\200205113340977a864d567408.png)
+![](https://github.com/openwrt166/firetv/blob/master/images/3.png)
 
 4. 用手机上的AppsFire把第1步下载的3个APK安装到FireTV上面，先不要在FireTV上运行。**如果安装APK到FireTV过程中失败, 把FireTV重启一下就可以了.**
 
