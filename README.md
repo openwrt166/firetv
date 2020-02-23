@@ -30,8 +30,6 @@
 2. 在电脑上运行ADBlink,输入前面准备工作中得到的FireTV IP，并点击连接。
    
    ![](D:\BX02\Desktop\TIM截图20200223200310.png)
-   
-   
 
 3. 输入后你会在FireTV电视界面看到一个权限申请，点选总是允许，并确认。
    
@@ -42,8 +40,6 @@
     FTVLaunchX-1.0.1.apk
    
    安装在FireTV上面。
-   
-   
 
 5. 在电脑Adblink上面点击Adb Shell,进入与FireTV的Adb调试界面。输入如下命令:
    
@@ -54,8 +50,6 @@
 6. 在FireTV上运行LaunchX，选择ATV Launcher为自己使用的桌面。设置好了以后，可以在ATV Launcher里面把LaunchX图标及Amazon自带的所有不用的程序图标全部隐藏起来。
 
 7. 这样桌面替换就已完成。重复第4步，就可以安装其他常用的APP到FireTV上。
-   
-   
 
 #### 用手机操作的教程
 
@@ -64,10 +58,6 @@
 手机上需要预先安装的软件: （所有会用到的apk，都可以在本教程所在的页面找到)
 
 ![](D:\BX02\Desktop\19120911189f7f6674217b7a60.png)
-
-
-
-
 
 1. 先下载如下3个apk在手机上. **只下载，不要安装在手机上.**
 
@@ -98,28 +88,45 @@ pm grant de.codefaktor.ftvlaunchx android.permission.WRITE_SECURE_SETTINGS
 
 输入此条命令，有两种方式，一种是用遥控器一个字符一个字符的输入，还有一种方法，就是前面在手机上下载的Amazon FireTV这个软件连接盒子，在手机上复制，粘贴到盒子上面，简单方便不易出错.
 
-
-
 6. 在FireTV上运行LaunchX，选择ATV Launcher为自己使用的桌面。设置好了以后，可以在ATV Launcher里面把LaunchX图标及Amazon自带的所有不用的程序图标全部隐藏起来。
 
 7. 这样桌面替换就已完成。利用Apps2Fire就可以在手机上轻松安装其他常用的APP到FireTV上。
-   
-   
-   
-   #### 常用软件说明
-   
+
+#### 常用软件说明
+
    （所有提到的apk，都可以在本教程所在的页面找到)
-   
+
    **a. 国外视频播放。**  
-   
-   1) NetFlix--- 从盒子提取的原生版本，供下载有困难的取用。  
-   
-    YouTube---从盒子提取的原生版本，供下载有困难的取用。  
-   **b. 国内视频播放**  
-   
-   1) Perfect Player+自动更新播放源--- 直播国内外电视频道,强烈推荐。安装后,从顶部导航菜单齿轮状图标进去, 然后打开一般设置(General), 在播放列表1(Playlist1) 输入直播源地址:  
-      [https://www.hefentv.cn/mtv/appgjh.m3u](https://www.hefentv.cn/mtv/appgjh.m3u) (2020年2月5号更新，此源已失效，自建源请看此帖  
-      [https://www.hi-pda.com/forum/viewthread.php?tid=2676478](https://www.hi-pda.com/forum/viewthread.php?tid=2676478)  
-      )
-   
-   
+
+
+
+NetFlix--- 从盒子提取的原生版本，供下载有困难的取用。  
+
+
+
+YouTube---从盒子提取的原生版本，供下载有困难的取用。  
+
+
+**b. 国内视频播放**  
+
+1) Perfect Player+自动更新播放源--- 直播国内外电视频道,强烈推荐。安装后,从顶部导航菜单齿轮状图标进去, 然后打开一般设置(General), 在播放列表1(Playlist1) 输入直播源地址。(图片上的地址已失效，仅做说明)
+
+2) 爱奇艺HD---鉴于Ｄ版很多有充京东Plus送了爱奇艺黄金会员. 这个会员正常是不能用在TV端的. 这个软件是把爱奇艺黄金会员充分利用在电视盒子上的最佳方式。使用时需要另买一个蓝牙鼠标（20-30元，要求不高，能用就行）。 不用鼠标也可以,安装后面会提到的Mouse Toggle 这个APP.
+
+3) 今日影视---很多美剧，国内电视剧提前看，电影。不过都是盗用的播放源，清晰度有的高，有的低。
+
+4) ShadowSocksR-Android 爬楼用的,很完美的客户端. 第一次使用时需要删除默认节点并添加订阅更新。如果安装这个客户端在FireTV上，最好把local port 1080改成了1081或者更大一点数字，以免端口冲突造成不能上网。
+
+5) bilibili TV版，低调分享，请勿传播。
+
+6) nPlayer Pro，本地播放神器。
+
+7) Mouse Toggle for FireTV Stick, 隆重介绍. 可以用遥控器代替鼠标的APP. 
+   a. 安装后如果进去状态栏一直显示starting. 需要把ADB Debugging(如何改这个看1楼)改成OFF,再改成ON,直到电视出现有新装置连接ADB的提示,再确认提示.不行的话,多来几遍.
+
+        b. 在需要用鼠标时连按两次遥控器Play/Pause键激活, 按住方向键不放,可以加速鼠标移动.
+
+        c. 安装调整好了之后,可以在ATV Launcher里面把Mouse Toggle的图标隐藏.  
+
+        d. 跟爱奇艺APP的配合. 看爱奇艺的时候,先在手机APP上找到找开播放,然后马上关闭. 接下来在FireTV上爱奇艺HD版找到历史记录,点开播放. 避免在FireTV用虚拟鼠标搜索操作的极大不便.
+        e. 原始来源有英文版的使用说明,见https://www.firesticktricks.com/mouse-toggle-firestick.html
