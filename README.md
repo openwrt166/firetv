@@ -98,35 +98,39 @@ pm grant de.codefaktor.ftvlaunchx android.permission.WRITE_SECURE_SETTINGS
 
    **a. 国外视频播放。**  
 
+- NetFlix--- 从盒子提取的原生版本，供下载有困难的取用。  
 
-
-NetFlix--- 从盒子提取的原生版本，供下载有困难的取用。  
-
-
-
-YouTube---从盒子提取的原生版本，供下载有困难的取用。  
-
+- YouTube---从盒子提取的原生版本，供下载有困难的取用。  
 
 **b. 国内视频播放**  
 
-1) Perfect Player+自动更新播放源--- 直播国内外电视频道,强烈推荐。安装后,从顶部导航菜单齿轮状图标进去, 然后打开一般设置(General), 在播放列表1(Playlist1) 输入直播源地址。(图片上的地址已失效，仅做说明)
+- Perfect Player+自动更新播放源--- 直播国内外电视频道,强烈推荐。安装后,从顶部导航菜单齿轮状图标进去, 然后打开一般设置(General), 在播放列表1(Playlist1) 输入直播源地址。(图片上的地址已失效，仅做说明)
+  
+  【最近的更新直播源如下】
+  
+  国内频道 http://tv.sason.xyz/gn.m3u
+  港台频道 http://tv.sason.xyz/gt.m3u
+  适配EPG http://tv.sason.xyz/epg
+  
+  
 
-2) 爱奇艺HD---鉴于Ｄ版很多有充京东Plus送了爱奇艺黄金会员. 这个会员正常是不能用在TV端的. 这个软件是把爱奇艺黄金会员充分利用在电视盒子上的最佳方式。使用时需要另买一个蓝牙鼠标（20-30元，要求不高，能用就行）。 不用鼠标也可以,安装后面会提到的Mouse Toggle 这个APP.
+- 爱奇艺HD---鉴于Ｄ版很多有充京东Plus送了爱奇艺黄金会员. 这个会员正常是不能用在TV端的. 这个软件是把爱奇艺黄金会员充分利用在电视盒子上的最佳方式。使用时需要另买一个蓝牙鼠标（20-30元，要求不高，能用就行）。 不用鼠标也可以,安装后面会提到的Mouse Toggle 这个APP.
 
-3) 今日影视---很多美剧，国内电视剧提前看，电影。不过都是盗用的播放源，清晰度有的高，有的低。
+- 今日影视---很多美剧，国内电视剧提前看，电影。不过都是盗用的播放源，清晰度有的高，有的低。
 
-4) ShadowSocksR-Android 爬楼用的,很完美的客户端. 第一次使用时需要删除默认节点并添加订阅更新。如果安装这个客户端在FireTV上，最好把local port 1080改成了1081或者更大一点数字，以免端口冲突造成不能上网。
+- ShadowSocksR-Android 爬楼用的,很完美的客户端. 第一次使用时需要删除默认节点并添加订阅更新。如果安装这个客户端在FireTV上，最好把local port 1080改成了1081或者更大一点数字，以免端口冲突造成不能上网。
 
-5) bilibili TV版，低调分享，请勿传播。
+- bilibili TV版，低调分享，请勿传播。
 
-6) nPlayer Pro，本地播放神器。
+- nPlayer Pro，本地播放神器。
 
-7) Mouse Toggle for FireTV Stick, 隆重介绍. 可以用遥控器代替鼠标的APP. 
-         a. 安装后如果进去状态栏一直显示starting. 需要把ADB Debugging(如何改这个看1楼)改成OFF,再改成ON,直到电视出现有新装置连接ADB的提示,再确认提示.不行的话,多来几遍.
+- Mouse Toggle for FireTV Stick, 隆重介绍. 可以用遥控器代替鼠标的APP. 
+
+        a. 安装后如果进去状态栏一直显示starting. 需要把ADB Debugging(如何改这个看1楼)改成OFF,再改成ON,直到电视出现有新装置连接ADB的提示,再确认提示.不行的话,多来几遍.
 
         b. 在需要用鼠标时连按两次遥控器Play/Pause键激活, 按住方向键不放,可以加速鼠标移动.
 
-        c. 安装调整好了之后,可以在ATV Launcher里面把Mouse Toggle的图标隐藏.  
+        c. 安装调整好了之后,可以在ATV Launcher里面把Mouse Toggle的图标隐藏.
 
         d. 跟爱奇艺APP的配合. 看爱奇艺的时候,先在手机APP上找到找开播放,然后马上关闭. 接下来在FireTV上爱奇艺HD版找到历史记录,点开播放. 避免在FireTV用虚拟鼠标搜索操作的极大不便.
         e. 原始来源有英文版的使用说明,见https://www.firesticktricks.com/mouse-toggle-firestick.html
