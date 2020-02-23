@@ -31,10 +31,8 @@ b. sm partition disk:8,0 private (会把整个U盘空间作为内置存储的扩
 
 4) df -h 得到你扩充到内置存储的分区ID，根据自己的实际情况判断. 如图上是 b364d821-f0b7-4f6f-8c67-eeb62f364ae1
    
-   ![](https://github.com/openwrt166/firetv/blob/master/images/9.png)
-   
-   
-   
+   ![](https://github.com/openwrt166/firetv/blob/master/images/09.png)  
+      
 
 5) pm list packages 得到安装的APK的包的名称.
    ![](https://github.com/openwrt166/firetv/blob/master/images/10.png)
