@@ -108,11 +108,10 @@ pm grant de.codefaktor.ftvlaunchx android.permission.WRITE_SECURE_SETTINGS
   
   【最近的更新直播源如下】
   
-  国内频道 http://tv.sason.xyz/gn.m3u
-  港台频道 http://tv.sason.xyz/gt.m3u
-  适配EPG http://tv.sason.xyz/epg
-  
-  
+  国内频道 http://tv.sason.xyz/gn.m3u  
+  港台频道 http://tv.sason.xyz/gt.m3u  
+  适配EPG http://tv.sason.xyz/epg  
+    
   - 爱奇艺HD---鉴于Ｄ版很多有充京东Plus送了爱奇艺黄金会员. 这个会员正常是不能用在TV端的. 这个软件是把爱奇艺黄金会员充分利用在电视盒子上的最佳方式。使用时需要另买一个蓝牙鼠标（20-30元，要求不高，能用就行）。 不用鼠标也可以,安装后面会提到的Mouse Toggle 这个APP.
 
 - 今日影视---很多美剧，国内电视剧提前看，电影。不过都是盗用的播放源，清晰度有的高，有的低。
