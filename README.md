@@ -122,7 +122,7 @@ YouTube---从盒子提取的原生版本，供下载有困难的取用。
 6) nPlayer Pro，本地播放神器。
 
 7) Mouse Toggle for FireTV Stick, 隆重介绍. 可以用遥控器代替鼠标的APP. 
-   a. 安装后如果进去状态栏一直显示starting. 需要把ADB Debugging(如何改这个看1楼)改成OFF,再改成ON,直到电视出现有新装置连接ADB的提示,再确认提示.不行的话,多来几遍.
+         a. 安装后如果进去状态栏一直显示starting. 需要把ADB Debugging(如何改这个看1楼)改成OFF,再改成ON,直到电视出现有新装置连接ADB的提示,再确认提示.不行的话,多来几遍.
 
         b. 在需要用鼠标时连按两次遥控器Play/Pause键激活, 按住方向键不放,可以加速鼠标移动.
 
