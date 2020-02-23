@@ -10,10 +10,10 @@ FireTV Stick 4K最大的短板是内置存储空间很小，而很多APK都需�
 1) 首页教程里面说的，安装在FireTV Stick 4K上的Adb Remote Shell, 结合在手机上安装的FireTV APP输入命令。如果直接用遥控器输入命令会很累。
    2）电脑上安装ADB link来操作。ADBLink下载:  http://www.jocala.com/
       如果有电脑操作的话，安装APK、输入命令等比手机还是方便些。注意连接端口是5555。
-   ![](D:\BX02\Desktop\09.png)
+   ![](https://github.com/openwrt166/firetv/blob/master/images/2.png)
 
 连接后，根据电视屏幕上的提示确认允许连接。
-![](D:\BX02\Desktop\10.png)
+![](https://github.com/openwrt166/firetv/blob/master/images/3.png)
 
 
 
@@ -31,20 +31,20 @@ b. sm partition disk:8,0 private (会把整个U盘空间作为内置存储的扩
 
 4) df -h 得到你扩充到内置存储的分区ID，根据自己的实际情况判断. 如图上是 b364d821-f0b7-4f6f-8c67-eeb62f364ae1
    
-   ![](D:\BX02\Desktop\10.png)
+   ![](https://github.com/openwrt166/firetv/blob/master/images/9.png)
    
    
    
 
 5) pm list packages 得到安装的APK的包的名称.
-   ![](D:\BX02\Desktop\10.png)
+   ![](https://github.com/openwrt166/firetv/blob/master/images/10.png)
 
 6) pm move-package com.neulion.firetv.ufc.android.amazon b364d821-f0b7-4f6f-8c67-eeb62f364ae1
    根据自己的情况修改，红色部份为要转移的软件包名称（上面第5步得到），蓝色部份为要目标分区ID（上面第4步得到）。
 
 7) 如何判断软件是否安装在扩展存储空间。
    
-   ![](D:\BX02\Desktop\11.png)
+   ![](https://github.com/openwrt166/firetv/blob/master/images/11.png)
    
    
    
