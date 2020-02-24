@@ -22,7 +22,7 @@ docker run -d --name="airprint" --net="host" --privileged="true" -e TZ="Asia/Sha
 
 按照下面我截的图进行更改
 
-![](D:\BX02\Desktop\cupsd.png)
+![](https://github.com/openwrt166/firetv/blob/master/images/cupsd.png)
 
 ##### 3)命令行输入:
 
