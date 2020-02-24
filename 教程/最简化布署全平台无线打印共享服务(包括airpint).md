@@ -32,7 +32,7 @@ docker restart airprint
 
 服务器已经设置完毕。
 
-1. Windows 平台，用共享名http://192.168.x.x:631/printers/打印机添加打印机并安装本地驱动.
+1. Windows 平台，用共享名http://192.168.x.x:631/printers/打印机添加打印机并安装本地驱动. 管理页面用户名：admin, 密码admin
 
 2. Android手机，实现在Android9.0下不用安装任何软件，设置下面“设备连接==》打印”可以直接搜到共享的打印机。如果不行，可以Google Play搜索CUPS Print安装。安装后也不用任何设置不用安装驱动。打印时直接搜到共享的打印机即可。
 
