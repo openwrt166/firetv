@@ -28,7 +28,7 @@ docker run -d --name="airprint" --net="host" --privileged="true" -e TZ="Asia/Sha
 
 docker restart airprint
 
-#### 第二步: 在PC浏览器用https://192.168.x.x(你的docker服务ip):663,访问并安装对应打印机驱动。（保持打印机处于连接并打开以搜索到打印机）
+#### 第二步: 在PC浏览器用https://192.168.x.x(你的docker服务ip):631,访问并安装对应打印机驱动。（保持打印机处于连接并打开以搜索到打印机）
 
 服务器已经设置完毕。
 
